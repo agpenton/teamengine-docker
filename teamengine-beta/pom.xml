@@ -65,6 +65,7 @@
           <imageTags>
             <imageTag>${docker.tag}</imageTag>
           </imageTags>
+          <serverId>${docker.serverId}</serverId>
         </configuration>
       </plugin>
     </plugins>
