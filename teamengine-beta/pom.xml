@@ -118,13 +118,13 @@
       <type>zip</type>
     </dependency>
     <!-- ETS WCS 2.0 -->
-    <!--dependency>
+    <dependency>
       <groupId>org.opengis.cite</groupId>
       <artifactId>ets-wcs20</artifactId>
       <version>${ets-wcs20.version}</version>
       <classifier>ctl</classifier>
       <type>zip</type>
-    </dependency-->
+    </dependency>
     <!-- ETS WFS 1.0 -->
     <dependency>
       <groupId>org.opengis.cite</groupId>
@@ -156,7 +156,7 @@
       <type>zip</type>
     </dependency>
     <!-- ETS WFS 2.0 -->
-    <!--dependency>
+    <dependency>
       <groupId>org.opengis.cite</groupId>
       <artifactId>ets-wfs20</artifactId>
       <version>${ets-wfs20.version}</version>
@@ -169,7 +169,7 @@
       <version>${ets-wfs20.version}</version>
       <classifier>deps</classifier>
       <type>zip</type>
-    </dependency-->
+    </dependency>
     <!-- ETS WMS 1.1 -->
     <dependency>
       <groupId>org.opengis.cite</groupId>
@@ -201,13 +201,13 @@
       <type>zip</type>
     </dependency>
     <!-- ETS WMTS 1.0 -->
-    <!--dependency>
+    <dependency>
       <groupId>org.opengis.cite</groupId>
       <artifactId>ets-wmts10</artifactId>
       <version>${ets-wmts10.version}</version>
       <classifier>ctl</classifier>
       <type>zip</type>
-    </dependency-->
+    </dependency>
     <!-- ETS CSW 2.0.2 -->
     <!--dependency>
       <groupId>org.opengis.cite</groupId>
