@@ -6,8 +6,8 @@ ARG user=teamengine
 ARG group=teamengine
 #ARG uid=1000
 #ARG gid=1000
-ENV uid=1000
-ENV gid=1000
+ENV uid=$UID
+ENV gid=$GID
 
 USER teamengine
 #ENV RES_DIR="/root"
