@@ -4,12 +4,12 @@ ENV CATALINA_BASE "$CATALINA_HOME"
 RUN useradd --create-home teamengine
 ARG user=teamengine
 ARG group=teamengine
-#ARG uid=1000
-#ARG gid=1000
-ENV uid=`id -u tomcat`
-#ENV uid=$UID
-ENV gid=`id -g tomcat`
-#ENV gid=$GID
+ARG uid=112
+ARG gid=112
+#ENV uid=`id -u tomcat`
+ENV uid=$UID
+#ENV gid=`id -g tomcat`
+ENV gid=$GID
 
 USER teamengine
 #ENV RES_DIR="/root"
